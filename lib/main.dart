@@ -16,10 +16,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
+      theme: ThemeData (
+
+
+
         colorScheme: ColorScheme.fromSeed(
             brightness:Brightness.dark,
-            seedColor: Colors.red),
+            seedColor: Colors.white),
         useMaterial3: true,
       ),
       home: const WeatherHome(
